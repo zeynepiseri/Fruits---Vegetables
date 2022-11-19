@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuru Ürünler</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="kuru.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<header class="main-header">
+  <div id="main-nav" class="container">
+      <a href="#" class="main-header__logo">LOGO</a>
+      <nav class="main-nav">
+          <ul class="main-nav__items">
+              <li class="main-nav__item" >
+                <a href="index.html">Ana Sayfa</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="urunler.html">Meyveler & Sebzeler</a>
+              </li>
+              <li class="main-nav__item main-nav__item--login">
+                <a href="kuru.html" style="color: red;">Kurutulmuşlar</a>
+              </li>
+              <li class="main-nav__item main-nav__item--login">
+                <a href="makale.html">Makaleler</a>
+              </li>
+              <li class="main-nav__item main-nav__item--login">
+                <a href="Hakkımızda.html">Hakkımızda</a>
+              </li>
+              <li class="main-nav__item main-nav__item--login">
+                <a href="İletisim.html">İletişim</a>
+              </li>
+              <li class="main-nav__item">
+                  <a href="#" onclick="displayMenu()">
+                      <i class="fa fa-bars"></i>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+</header> 
+
+<main>
+    <section id="showcase">
+        <div class="content">
+          <h1 id="kuru">Kuru Ürünlerimiz</h1>
+        </div>
+          </div>
+      </section>
+<section>
+      <div class="meyvebaslik">
+        <h1 id="meyveler" style="color: green;font-size: 40px;font-weight: bolder;margin-top: 100px;">Kuru Ürünler</h1>
+        <hr width="100%" color="#EF5B0C" size="8" style="color: orangered;">
+      </div>
+    </section>
+    
+
+        <section style="margin-bottom: 100px;">
+            <div class="card card-1 urun" style="width: 18rem;margin-top: 50px;">
+               <img src="resim/kuru elma.jpg" class="card-img-top" alt="Elma" title="Elma">
+               <div class="card-body">
+                 <h5 class="card-title" style="color: green;font-weight: bolder;">Kuru Elma</h5>
+                 <p class="card-kg">kg</p>
+                 <p class="card-tl">25₺</p>
+                 <button class="btn btn-outline-warning btn-lg" style="border-radius: 30px;">
+                   <i class="fa-solid fa-cart-shopping"></i> Sepete At</button>
+                 </div>
+             </div>
+    
+             <div class="card card-2 urun" style="width: 18rem;margin-top: 50px;">
+               <img src="resim/kuru erik.jpg" class="card-img-top" alt="Erik" title="Erik" style="height: 380px;">
+               <div class="card-body">
+                 <h5 class="card-title" style="color: green;font-weight: bolder;">Kuru Erik</h5>
+                 <p class="card-kg">kg</p>
+                 <p class="card-tl">35₺</p>
+                 <button class="btn btn-outline-warning btn-lg" style="border-radius: 30px;">
+                   <i class="fa-solid fa-cart-shopping"></i> Sepete At</button>
+                 </div>
+             </div>
+    
+             <div class="card card-3 urun" style="width: 18rem;margin-top: 50px;">
+               <img src="resim/kuru incir.jpg" class="card-img-top" alt="İncir" title="İncir" style="height: 380px;">
+               <div class="card-body">
+                 <h5 class="card-title" style="color: green;font-weight: bolder;">Kuru İncir</h5>
+                 <p class="card-kg">kg</p>
+                 <p class="card-tl">45₺</p>
+                 <button class="btn btn-outline-warning btn-lg" style="border-radius: 30px;">
+                   <i class="fa-solid fa-cart-shopping"></i> Sepete At</button>
+                 </div>
+               </div>
+             </div>
+    
+             <div class="card card-2 urun card-4" style="width: 18rem;margin-top: 50px;">
+              <img src="resim/kuru kayısı.jpg" class="card-img-top" alt="Kayısı" title="Kayısı" style="height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title" style="color: green;font-weight: bolder;">Kuru Kayısı</h5>
+                <p class="card-kg">kg</p>
+                <p class="card-tl">35₺</p>
+                <button class="btn btn-outline-warning btn-lg" style="border-radius: 30px;">
+                  <i class="fa-solid fa-cart-shopping"></i> Sepete At</button>
+                </div>
+            </div>
+    
+            <div class="card card-2 urun" style="width: 18rem;margin-top: 50px;">
+              <img src="resim/kuru biber.jpg" class="card-img-top" alt="Biber" title="Biber" style="height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title" style="color: green;font-weight: bolder;">Kuru Biber</h5>
+                <p class="card-kg">kg</p>
+                <p class="card-tl">35₺</p>
+                <button class="btn btn-outline-warning btn-lg" style="border-radius: 30px;">
+                  <i class="fa-solid fa-cart-shopping"></i> Sepete At</button>
+                </div>
+            </div>
+    
+            <div class="card card-2 urun" style="width: 18rem;margin-top: 50px;">
+              <img src="resim/kuru portakal.jpg" class="card-img-top" alt="Portakal" title="Portakal" style="height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title" style="color: green;font-weight: bolder;">Kuru Portakal</h5>
+                <p class="card-kg">kg</p>
+                <p class="card-tl">35₺</p>
+                <button class="btn btn-outline-warning btn-lg" style="border-radius: 30px;">
+                  <i class="fa-solid fa-cart-shopping"></i> Sepete At</button>
+                </div>
+            </div>
+
+            <div class="card card-1 urun" style="width: 18rem;margin-top: 50px;">
+              <img src="resim/kuru üzüm.jpg" class="card-img-top" alt="Üzüm" title="Üzüm">
+              <div class="card-body">
+                <h5 class="card-title" style="color: green;font-weight: bolder;">Kuru Üzüm</h5>
+                <p class="card-kg">kg</p>
+                <p class="card-tl">25₺</p>
+                <button class="btn btn-outline-warning btn-lg" style="border-radius: 30px;">
+                  <i class="fa-solid fa-cart-shopping"></i> Sepete At</button>
+                </div>
+            </div>
+  
+          </section>
+    
+          <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="http://127.0.0.1:5500/DENEME/makale.html#" style="border: solid orangered;background-color: orangered;border-radius: 50%;">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  function displayMenu() {
+      var link = document.getElementById("main-nav");
+      link.classList.toggle("responsive");
+  }
+</script>
+</body>
+</html>
